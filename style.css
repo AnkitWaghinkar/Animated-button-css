@@ -28,4 +28,15 @@ a::before{
     position: absolute;
     z-index: -1;
     transform: skew(-15deg);
+     
+    animation: moving 1.5s linear infinite;
+
+    transition: all 0.5s;
+}
+
+@keyframes moving {
+    
+    from{left:-120px;}
+    to{left: 100%;}
+    
 }
