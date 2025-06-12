@@ -40,3 +40,11 @@ a::before{
     to{left: 100%;}
     
 }
+
+
+a:hover::before{
+    width: 100%;
+    transform: skew(0deg);
+    animation: none;
+
+}
